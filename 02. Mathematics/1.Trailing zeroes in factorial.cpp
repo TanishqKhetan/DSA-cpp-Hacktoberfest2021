@@ -32,9 +32,7 @@
 
 // Driver Code Starts
 #include<bits/stdc++.h> 
-using namespace std; 
-// Driver Code Ends
-
+using namespace std;
 class Solution
 {
 public:
@@ -53,10 +51,13 @@ public:
 int main()
 {
     int t;
+    cout<< "Enter 1 to continue"
+    Cout<< "0 to End";
     cin >> t;
     while (t--)
     {
         int N;
+        cout<< "enter no  ";
         cin >> N;
         Solution ob;
         int ans  = ob.trailingZeroes(N);
@@ -64,4 +65,7 @@ int main()
     }
     return 0;
 }
+//Driver Code Starts.
+
+
 //Driver Code Starts.
